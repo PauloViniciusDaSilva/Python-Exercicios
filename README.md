@@ -1,2 +1,2 @@
-# Python-Exercicios
+# Python Exercícios
  Primeiro reposítorio dos meus exercícios em python
