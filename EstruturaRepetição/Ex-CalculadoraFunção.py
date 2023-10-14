@@ -1,6 +1,12 @@
-def cal(n):return [n*i for i in range(1,11)]
+while True:
+    try:
+        def cal(n):return [f'{i} x {n} = {i*n}' for i in range(1,11)]
 
-input = int(input('Digite número'))
-cal(input)
-resul = cal(input)
-print(cal(input))
+        resu = cal(int(input('Digite número')))
+    except(ValueError, TypeError, KeyboardInterrupt):
+        print('Digite APENAS NÚMEROS')
+    else:
+        print(f'Calculadora:')
+        for el in resu:
+            print(el)
+        break
